@@ -64,9 +64,7 @@ def start_server():
             print("SERVER STOPPED...")
             break
 
-while(True):
-    if(oh.is_switch_on() == True):
-        start_server()
+start_server()
                     
 
 
