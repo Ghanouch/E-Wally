@@ -22,5 +22,3 @@ def is_switch_on():
     if(switch_item.state=="ON"):
         return True
     return False
-def is_switch_off():
-    return not is_switch_on()
