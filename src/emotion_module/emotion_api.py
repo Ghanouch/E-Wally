@@ -21,7 +21,7 @@ def get_emotion(body):
     headers = {
         # Request headers. Replace the placeholder key below with your subscription key.
         'Content-Type': 'application/octet-stream',
-        'Ocp-Apim-Subscription-Key': ' 07788b05082b46bea3481125dea2e407',
+        'Ocp-Apim-Subscription-Key': 'Your key',
         
     }
     
