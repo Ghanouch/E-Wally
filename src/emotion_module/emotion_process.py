@@ -18,7 +18,7 @@ import json
 from collections import namedtuple
 def process_result(result):
     x = json.loads(result, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
-    if(len(x)==0 and x[0]):
+    if(len(x)==0):
         d = "Could not process the image"
     else : 
         #display the result
