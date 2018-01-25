@@ -1,1 +1,1 @@
-# E-Wally
+# E-Wally Project
